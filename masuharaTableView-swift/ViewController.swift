@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        naraigotoArray = ["公文","テニス"]　
+        naraigotoArray = ["公文","テニス"]
         
         // Do any additional setup after loading the view, typically from a nib.
     }
